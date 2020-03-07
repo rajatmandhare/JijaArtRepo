@@ -1,6 +1,7 @@
 package com.jija.qa.tests;
 
 import org.testng.annotations.AfterMethod;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -10,6 +11,8 @@ import com.jija.qa.pages.HomePage;
 
 import junit.framework.Assert;
 
+
+// Rajat Mandhare :
 public class CraftPageTest extends TestBase {
 		CraftPage craftPage;
 		HomePage homePage;

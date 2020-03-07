@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [jijaartSuite]">
+  <test name="RunnerTest(failed)">
+    <classes>
+      <class name="com.jija.qa.tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitle"/>
+        </methods>
+      </class> <!-- com.jija.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- RunnerTest(failed) -->
+</suite> <!-- Failed suite [jijaartSuite] -->

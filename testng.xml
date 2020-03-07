@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="jijaartSuite">
+    
+    <listeners>
+		<listener class-name="com.jija.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+  <test  name="RunnerTest">
+    <classes>
+      <class name="com.jija.qa.tests.HomePageTest"/>
+      <class name="com.jija.qa.tests.CraftPageTest"/>
+      <class name="com.jija.qa.tests.LoginPageTest"/>
+    </classes>
+  </test> <!-- RunnerTest -->
+</suite> <!-- jijaartSuite -->
+ 

@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [jijaartSuite]">
+  <listeners>
+    <listener class-name="com.jija.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="RunnerTest(failed)">
     <classes>
-      <class name="com.jija.qa.tests.HomePageTest">
+      <class name="com.jija.qa.tests.CraftPageTest">
         <methods>
           <include name="setUp"/>
+          <include name="craftPageOpenTest"/>
           <include name="tearDown"/>
-          <include name="verifyHomePageTitle"/>
         </methods>
-      </class> <!-- com.jija.qa.tests.HomePageTest -->
+      </class> <!-- com.jija.qa.tests.CraftPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- RunnerTest(failed) -->
+</suite> <!-- Failed suite [jijaartSuite] -->

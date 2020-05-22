@@ -2,84 +2,84 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="jijaartSuite" duration-ms="107981" started-at="2020-03-11T06:55:34Z" finished-at="2020-03-11T06:57:22Z">
+  <suite name="jijaartSuite" duration-ms="127784" started-at="2020-05-22T13:39:08Z" finished-at="2020-05-22T13:41:16Z">
     <groups>
     </groups>
-    <test name="RunnerTest" duration-ms="107981" started-at="2020-03-11T06:55:34Z" finished-at="2020-03-11T06:57:22Z">
+    <test name="RunnerTest" duration-ms="127784" started-at="2020-05-22T13:39:08Z" finished-at="2020-05-22T13:41:16Z">
       <class name="com.jija.qa.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.LoginPageTest@27efef64]" name="setUp" is-config="true" duration-ms="14379" started-at="2020-03-11T12:26:11Z" finished-at="2020-03-11T12:26:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.LoginPageTest@548e7350]" name="setUp" is-config="true" duration-ms="15955" started-at="2020-05-22T13:39:55Z" finished-at="2020-05-22T13:40:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logoCheckTest()[pri:1, instance:com.jija.qa.tests.LoginPageTest@27efef64]" name="logoCheckTest" duration-ms="83" started-at="2020-03-11T12:26:26Z" finished-at="2020-03-11T12:26:26Z">
+        <test-method status="PASS" signature="logoCheckTest()[pri:1, instance:com.jija.qa.tests.LoginPageTest@548e7350]" name="logoCheckTest" duration-ms="250" started-at="2020-05-22T13:40:11Z" finished-at="2020-05-22T13:40:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoCheckTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.LoginPageTest@27efef64]" name="tearDown" is-config="true" duration-ms="667" started-at="2020-03-11T12:26:26Z" finished-at="2020-03-11T12:26:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.LoginPageTest@548e7350]" name="tearDown" is-config="true" duration-ms="963" started-at="2020-05-22T13:40:11Z" finished-at="2020-05-22T13:40:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.LoginPageTest@27efef64]" name="setUp" is-config="true" duration-ms="14308" started-at="2020-03-11T12:26:50Z" finished-at="2020-03-11T12:27:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.LoginPageTest@548e7350]" name="setUp" is-config="true" duration-ms="16428" started-at="2020-05-22T13:40:37Z" finished-at="2020-05-22T13:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.jija.qa.tests.LoginPageTest@27efef64]" name="loginTest" duration-ms="1066" started-at="2020-03-11T12:27:04Z" finished-at="2020-03-11T12:27:05Z">
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.jija.qa.tests.LoginPageTest@548e7350]" name="loginTest" duration-ms="4333" started-at="2020-05-22T13:40:53Z" finished-at="2020-05-22T13:40:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.LoginPageTest@27efef64]" name="tearDown" is-config="true" duration-ms="691" started-at="2020-03-11T12:27:05Z" finished-at="2020-03-11T12:27:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.LoginPageTest@548e7350]" name="tearDown" is-config="true" duration-ms="844" started-at="2020-05-22T13:40:58Z" finished-at="2020-05-22T13:40:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.LoginPageTest@27efef64]" name="setUp" is-config="true" duration-ms="15663" started-at="2020-03-11T12:27:06Z" finished-at="2020-03-11T12:27:21Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.LoginPageTest@548e7350]" name="setUp" is-config="true" duration-ms="16247" started-at="2020-05-22T13:40:59Z" finished-at="2020-05-22T13:41:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="titleCheckTest()[pri:3, instance:com.jija.qa.tests.LoginPageTest@27efef64]" name="titleCheckTest" duration-ms="34" started-at="2020-03-11T12:27:21Z" finished-at="2020-03-11T12:27:21Z">
+        <test-method status="PASS" signature="titleCheckTest()[pri:3, instance:com.jija.qa.tests.LoginPageTest@548e7350]" name="titleCheckTest" duration-ms="55" started-at="2020-05-22T13:41:15Z" finished-at="2020-05-22T13:41:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleCheckTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.LoginPageTest@27efef64]" name="tearDown" is-config="true" duration-ms="674" started-at="2020-03-11T12:27:21Z" finished-at="2020-03-11T12:27:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.LoginPageTest@548e7350]" name="tearDown" is-config="true" duration-ms="850" started-at="2020-05-22T13:41:15Z" finished-at="2020-05-22T13:41:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.jija.qa.tests.LoginPageTest -->
       <class name="com.jija.qa.tests.CraftPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.CraftPageTest@59f99ea]" name="setUp" is-config="true" duration-ms="21135" started-at="2020-03-11T12:25:34Z" finished-at="2020-03-11T12:25:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.CraftPageTest@5442a311]" name="setUp" is-config="true" duration-ms="26801" started-at="2020-05-22T13:39:08Z" finished-at="2020-05-22T13:39:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="craftPageOpenTest()[pri:0, instance:com.jija.qa.tests.CraftPageTest@59f99ea]" name="craftPageOpenTest" duration-ms="134" started-at="2020-03-11T12:25:55Z" finished-at="2020-03-11T12:25:55Z">
+        <test-method status="PASS" signature="craftPageOpenTest()[pri:0, instance:com.jija.qa.tests.CraftPageTest@5442a311]" name="craftPageOpenTest" duration-ms="228" started-at="2020-05-22T13:39:35Z" finished-at="2020-05-22T13:39:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- craftPageOpenTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.CraftPageTest@59f99ea]" name="tearDown" is-config="true" duration-ms="1177" started-at="2020-03-11T12:25:55Z" finished-at="2020-03-11T12:25:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.CraftPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="1553" started-at="2020-05-22T13:39:35Z" finished-at="2020-05-22T13:39:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.jija.qa.tests.CraftPageTest -->
       <class name="com.jija.qa.tests.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.HomePageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="13845" started-at="2020-03-11T12:25:56Z" finished-at="2020-03-11T12:26:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.HomePageTest@53b32d7]" name="setUp" is-config="true" duration-ms="17297" started-at="2020-05-22T13:39:37Z" finished-at="2020-05-22T13:39:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.jija.qa.tests.HomePageTest@ae45eb6]" name="verifyHomePageTitle" duration-ms="22" started-at="2020-03-11T12:26:10Z" finished-at="2020-03-11T12:26:10Z">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.jija.qa.tests.HomePageTest@53b32d7]" name="verifyHomePageTitleTest" duration-ms="37" started-at="2020-05-22T13:39:54Z" finished-at="2020-05-22T13:39:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.HomePageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="794" started-at="2020-03-11T12:26:10Z" finished-at="2020-03-11T12:26:11Z">
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.HomePageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="859" started-at="2020-05-22T13:39:54Z" finished-at="2020-05-22T13:39:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.HomePageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="16183" started-at="2020-03-11T12:26:26Z" finished-at="2020-03-11T12:26:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jija.qa.tests.HomePageTest@53b32d7]" name="setUp" is-config="true" duration-ms="16723" started-at="2020-05-22T13:40:12Z" finished-at="2020-05-22T13:40:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCraftPageBtnTest()[pri:2, instance:com.jija.qa.tests.HomePageTest@ae45eb6]" name="verifyCraftPageBtnTest" duration-ms="6309" started-at="2020-03-11T12:26:42Z" finished-at="2020-03-11T12:26:49Z">
+        <test-method status="PASS" signature="verifyCraftPageBtnTest()[pri:2, instance:com.jija.qa.tests.HomePageTest@53b32d7]" name="verifyCraftPageBtnTest" duration-ms="7384" started-at="2020-05-22T13:40:29Z" finished-at="2020-05-22T13:40:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCraftPageBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.HomePageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="762" started-at="2020-03-11T12:26:49Z" finished-at="2020-03-11T12:26:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jija.qa.tests.HomePageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="850" started-at="2020-05-22T13:40:36Z" finished-at="2020-05-22T13:40:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

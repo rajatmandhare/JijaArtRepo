@@ -20,7 +20,6 @@ public class HomePageTest extends TestBase{
 	
 	public HomePageTest(){
 		super();
-		
 	}
 	
 	@BeforeMethod
@@ -33,7 +32,7 @@ public class HomePageTest extends TestBase{
 	}
 	
 	@Test(priority=1)
-	public void verifyHomePageTitle(){
+	public void verifyHomePageTitleTest(){
 		String homePageTitle=homePage.verifyHomePageTitle();
 	//	System.out.println(homePageTitle);
 		Assert.assertEquals(homePageTitle,"JijaArt | Home");

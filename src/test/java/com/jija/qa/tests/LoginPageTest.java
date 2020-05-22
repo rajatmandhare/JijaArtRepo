@@ -22,7 +22,9 @@ public class LoginPageTest extends TestBase {
 	@BeforeMethod
 	public void setUp() {
 		initialization();
+		 homePage=new HomePage();
 		loginPage = new LoginPage();
+		
 	}
 
 	@Test(priority=3)

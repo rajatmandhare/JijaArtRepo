@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JijaArt Suite]">
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="com.jija.qa.tests.CraftPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="craftPageOpenTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jija.qa.tests.CraftPageTest -->
+      <class name="com.jija.qa.tests.PotteryPageTest">
+        <methods>
+          <include name="checkItemCountTest"/>
+          <include name="productsListTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jija.qa.tests.PotteryPageTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [JijaArt Suite] -->

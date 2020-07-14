@@ -24,31 +24,39 @@ public class LoginPageTest extends TestBase {
 		initialization();
 		 homePage=new HomePage();
 		loginPage = new LoginPage();
+		Log.info("Application launched successfully");
 		
 	}
 
-	@Test(priority=3)
+	@Test
 	public void titleCheckTest(){
 		String title=loginPage.verifyLoginPageTitle();
 		Assert.assertEquals(title, "JijaArt | Home");
+		Log.error("titleCheckTest Executed");
+		System.out.println("titleCheckTest Executed");
 		
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void logoCheckTest(){
 		boolean b=loginPage.verifyJijaImage();
 		Assert.assertTrue(b);
+		Log.error("logoCheckTest Executed");
+		System.out.println("logoCheckTest Executed");
 	}
 	
-	@Test(priority=2)
+	@Test
 	public void loginTest(){
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		Log.error("loginTest Executed");
+		System.out.println("loginTest Executed");
 	}
 	
 	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
+		Log.info("Browser closed successfully");
 	}
 
 }

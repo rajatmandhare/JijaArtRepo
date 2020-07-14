@@ -37,15 +37,17 @@ public class HomePage extends TestBase{
 	}
 	
 	public CraftPage clickOnCraftLink(){
-		craftLink.click();
+		
+			craftLink.click();
 		return new CraftPage();
 	}
+	
 	public PotteryPage clickOnPotteryLink(){
-		potteryLink.click();
+			potteryLink.click();
 		return new PotteryPage();
 	}
 	public PortraitPage clickOnPortraitLink(){
-		portraitLink.click();
+			portraitLink.click();
 		return new PortraitPage();
 	}
 	

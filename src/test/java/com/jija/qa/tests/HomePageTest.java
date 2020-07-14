@@ -29,23 +29,31 @@ public class HomePageTest extends TestBase{
 		  homePage=new HomePage();
 		//homePage =loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		craftPage =new CraftPage();
+		Log.info("Application launched successfully");
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void verifyHomePageTitleTest(){
 		String homePageTitle=homePage.verifyHomePageTitle();
 	//	System.out.println(homePageTitle);
 		Assert.assertEquals(homePageTitle,"JijaArt | Home");
+		Log.error("verifyHomePageTitleTest Executed");
+		System.out.println("verifyHomePageTitleTest Executed");
+
 	}	
 		
-	@Test(priority=2)
-	public void verifyCraftPageBtnTest(){
+	@Test
+	public void verifyCraftPageBtnTest()
+	{
 		 craftPage=homePage.clickOnCraftLink();
-		
+		 Log.error("verifyCraftPageBtnTest Executed");
+			System.out.println("verifyCraftPageBtnTest Executed");
+
 	}
 	
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();
+		Log.info("Browser closed successfully");
 	}
 }

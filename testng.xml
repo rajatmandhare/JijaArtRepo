@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="jijaartSuite">
-	
-  <test  name="RunnerTest">
-    <classes>
-      <class name="com.jija.qa.tests.HomePageTest"/>
-      <class name="com.jija.qa.tests.CraftPageTest"/>
-      <class name="com.jija.qa.tests.LoginPageTest"/>
-    </classes>
-  </test> <!-- RunnerTest -->
+<suite name="jijaartSuite1" >
+    
+    <listeners>
+		<listener class-name="com.jija.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Regression Test" >
+		<classes>
+			<class name="com.jija.qa.tests.HomePageTest" />
+			<class name="com.jija.qa.tests.LoginPageTest" />
+			<class name="com.jija.qa.tests.CraftPageTest" />
+			<class name="com.jija.qa.tests.PortraitPageTest" />
+			<class name="com.jija.qa.tests.PotteryPageTest" />
+
+		</classes>
+	</test> <!-- SmokeTest -->
 </suite> <!-- jijaartSuite -->
  

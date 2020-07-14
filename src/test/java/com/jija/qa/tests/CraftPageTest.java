@@ -17,6 +17,8 @@ public class CraftPageTest extends TestBase {
 		CraftPage craftPage;
 		HomePage homePage;
 		
+		
+		
 	public CraftPageTest(){
 		super();
 	}
@@ -27,18 +29,24 @@ public class CraftPageTest extends TestBase {
 		homePage=new HomePage();
 		homePage.clickOnCraftLink();
 		craftPage=new CraftPage();
+		Log.info("Application launched successfully");
 		
 	}
 	
 	@Test
 	public void craftPageOpenTest(){
+		
 		boolean text=craftPage.verifyCraftPage();
 		Assert.assertTrue(text);
+		Log.error("craftPageOpenTest Executed");
+		System.out.println("craftPageOpenTest Executed");
+		
 	}
 	
 	@AfterMethod
 	public void tearDown(){ 
 		driver.quit();
+		Log.info("Browser closed successfully");
 	}
 	
 }

@@ -1,0 +1,37 @@
+2020-07-03 17:40:10,212  INFO [main] CraftPage:32 - Application launched successfully
+2020-07-03 17:40:11,618 ERROR [main] CraftPage:49 - verifyCraftPageBtnTest Executed
+2020-07-03 17:40:12,442  INFO [main] CraftPage:57 - Browser closed successfully
+2020-07-03 17:40:45,001  INFO [main] CraftPage:32 - Application launched successfully
+2020-07-03 17:40:45,134 ERROR [main] CraftPage:40 - verifyHomePageTitleTest Executed
+2020-07-03 17:40:46,035  INFO [main] CraftPage:57 - Browser closed successfully
+2020-07-03 17:41:11,978  INFO [main] LoginPage:27 - Application launched successfully
+2020-07-03 17:41:34,724  INFO [main] LoginPage:59 - Browser closed successfully
+2020-07-03 17:41:55,647  INFO [main] LoginPage:27 - Application launched successfully
+2020-07-03 17:41:55,923 ERROR [main] LoginPage:44 - logoCheckTest Executed
+2020-07-03 17:41:56,663  INFO [main] LoginPage:59 - Browser closed successfully
+2020-07-03 17:42:15,333  INFO [main] LoginPage:27 - Application launched successfully
+2020-07-03 17:42:15,365 ERROR [main] LoginPage:35 - titleCheckTest Executed
+2020-07-03 17:42:16,574  INFO [main] LoginPage:59 - Browser closed successfully
+2020-07-03 17:42:37,440  INFO [main] CraftPage:32 - Application launched successfully
+2020-07-03 17:42:58,264  INFO [main] CraftPage:49 - Browser closed successfully
+2020-07-03 17:43:19,861  INFO [main] PortraitPage:31 - Application launched successfully
+2020-07-03 17:43:40,737  INFO [main] PortraitPage:66 - Browser closed successfully
+2020-07-03 17:43:58,031  INFO [main] PotteryPage:31 - Application launched successfully
+2020-07-03 17:43:58,254 ERROR [main] PotteryPage:39 - productsListTest Executed
+2020-07-03 17:43:59,944  INFO [main] PotteryPage:56 - Browser closed successfully
+2020-07-03 17:44:21,948  INFO [main] PortraitPage:31 - Application launched successfully
+2020-07-03 17:44:42,776  INFO [main] PortraitPage:66 - Browser closed successfully
+2020-07-03 17:45:11,746  INFO [main] PotteryPage:31 - Application launched successfully
+2020-07-03 17:45:12,563  INFO [main] PotteryPage:56 - Browser closed successfully
+2020-07-03 17:45:37,572  INFO [main] PortraitPage:31 - Application launched successfully
+2020-07-03 17:45:58,406  INFO [main] PortraitPage:66 - Browser closed successfully
+2020-07-03 17:45:59,789 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-07-03 17:45:59,796 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-07-03 17:45:59,854 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-07-03 17:45:59,857 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-07-03 17:45:59,859 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-07-03 17:46:00,309 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-07-03 17:46:00,310 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-07-03 17:46:00,310 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-07-03 17:46:00,311 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-07-03 17:46:00,311 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
